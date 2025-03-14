@@ -1,0 +1,4 @@
+
+Scaffold-DbContext "Server=localhost:1433;Database=master;Trusted_Connection=True;" -ContextDir Data -OutputDir Models
+
+provider:Microsoft.EntityFrameworkCore.SqlServer
